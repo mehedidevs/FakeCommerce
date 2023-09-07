@@ -25,7 +25,7 @@
             android:layout_width="216dp"
             android:layout_height="24dp"
             android:layout_marginTop="5dp"
-            android:fontFamily="@font/kodchasan_extralight"
+            android:fontFamily="@font/kodchasan"
             android:text="Nike Shoes"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/re_img"
@@ -49,8 +49,10 @@
             android:id="@+id/price"
             android:layout_width="wrap_content"
             android:layout_height="24dp"
-            android:fontFamily="@font/kodchasan_extralight"
+            android:fontFamily="@font/kodchasan"
             android:text="$135.99"
+            android:textStyle="bold"
+            android:textSize="16dp"
             app:layout_constraintEnd_toEndOf="@+id/textView"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/textView"
@@ -60,7 +62,7 @@
             android:id="@+id/textView3"
             android:layout_width="216dp"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/kodchasan_extralight"
+            android:fontFamily="@font/kodchasan"
             android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             android:textSize="12dp"
 
@@ -83,8 +85,8 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/kodchasan_extralight"
             android:text="5.0"
+            android:textStyle="bold"
             android:textSize="12dp"
             app:layout_constraintBottom_toBottomOf="@+id/imageView2"
             app:layout_constraintStart_toEndOf="@+id/imageView2"
@@ -97,7 +99,7 @@
             android:layout_marginStart="2dp"
             android:text="(34)"
             android:textColor="#3A3A3A"
-            android:textSize="11dp"
+            android:textSize="10dp"
             app:layout_constraintBottom_toBottomOf="@+id/textView4"
             app:layout_constraintStart_toEndOf="@+id/textView4"
             app:layout_constraintTop_toTopOf="@+id/textView4" />
@@ -107,7 +109,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
-            android:fontFamily="@font/kodchasan_extralight"
+            android:fontFamily="@font/kodchasan"
+            android:textStyle="bold"
             android:text="Category"
             android:textSize="11dp"
             app:layout_constraintBottom_toBottomOf="@+id/textView5"
@@ -128,14 +131,12 @@
             android:id="@+id/imageView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
             android:src="@drawable/_smallpill"
             app:layout_constraintBottom_toBottomOf="@+id/textView6"
-            app:layout_constraintEnd_toEndOf="@+id/textView"
-            app:layout_constraintHorizontal_bias="0.818"
+            app:layout_constraintEnd_toEndOf="@+id/re_img"
             app:layout_constraintStart_toEndOf="@+id/textView6"
-            app:layout_constraintTop_toTopOf="@+id/textView6"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toTopOf="@+id/textView6" />
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
