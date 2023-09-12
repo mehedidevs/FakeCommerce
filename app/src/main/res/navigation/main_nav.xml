@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/home_screen_desing">
+
+    <fragment
+        android:id="@+id/home_screen_desing"
+        android:name="com.mehedi.fakecommerce.home_screen_desing"
+        android:label="fragment_home_screen_desing"
+        tools:layout="@layout/fragment_home_screen_desing" >
+        <action
+            android:id="@+id/action_home_screen_desing_to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_home_screen_desing_to_wishlist"
+            app:destination="@id/wishlist" />
+        <action
+            android:id="@+id/action_home_screen_desing_to_cart"
+            app:destination="@id/cart" />
+        <action
+            android:id="@+id/action_home_screen_desing_to_home1"
+            app:destination="@id/home1" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.mehedi.fakecommerce.profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/wishlist"
+        android:name="com.mehedi.fakecommerce.wishlist"
+        android:label="fragment_wishlist"
+        tools:layout="@layout/fragment_wishlist" />
+    <fragment
+        android:id="@+id/cart"
+        android:name="com.mehedi.fakecommerce.Cart"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/home1"
+        android:name="com.mehedi.fakecommerce.home1"
+        android:label="fragment_home1"
+        tools:layout="@layout/fragment_home1" />
+</navigation>

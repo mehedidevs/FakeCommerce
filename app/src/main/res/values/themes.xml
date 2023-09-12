@@ -6,4 +6,23 @@
     </style>
 
     <style name="Theme.FakeCommerce" parent="Base.Theme.FakeCommerce" />
+
+
+
+    <style name="ThemeOverlay.SearchView" parent="">
+        <item name="android:textColorHint">@color/off_red</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:queryHint">Search</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="ThemeOverlay.CoustomButton" parent="">
+        <item name="android:backgroundTint">#EAF8EC</item>
+        <item name="android:fontFamily">@font/kodchasan</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#2FA090</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">Staff Pick</item>
+    </style>
+
 </resources>
