@@ -40,4 +40,19 @@
         android:name="com.mehedi.fakecommerce.ui.cart.CartFragment"
         android:label="fragment_cart"
         tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/onboarding1Fragment"
+        android:name="com.mehedi.fakecommerce.Onboarding1Fragment"
+        android:label="fragment_onboarding1"
+        tools:layout="@layout/fragment_onboarding1" />
+    <fragment
+        android:id="@+id/onboardin2Fragment"
+        android:name="com.mehedi.fakecommerce.Onboarding2Fragment"
+        android:label="fragment_onboardin2"
+        tools:layout="@layout/fragment_onboardin2" />
+    <fragment
+        android:id="@+id/onboarding3Fragment"
+        android:name="com.mehedi.fakecommerce.Onboarding3Fragment"
+        android:label="fragment_onboarding3"
+        tools:layout="@layout/fragment_onboarding3" />
 </navigation>
