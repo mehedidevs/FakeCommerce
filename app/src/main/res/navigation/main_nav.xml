@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_home_screen_desing_to_cart"
             app:destination="@id/cart" />
+        <action
+            android:id="@+id/action_home_screen_desing_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
     </fragment>
     <fragment
         android:id="@+id/profile"
@@ -35,4 +38,9 @@
         android:name="com.mehedi.fakecommerce.ui.cart.CartFragment"
         android:label="fragment_cart"
         tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.mehedi.fakecommerce.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" />
 </navigation>
