@@ -6,6 +6,11 @@
     app:startDestination="@id/home_screen_desing">
 
     <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.shimon.ecommerceapp.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" />
+    <fragment
         android:id="@+id/home_screen_desing"
         android:name="com.mehedi.fakecommerce.ui.home.HomeFragment"
         android:label="fragment_home_screen_desing"
@@ -19,9 +24,6 @@
         <action
             android:id="@+id/action_home_screen_desing_to_cart"
             app:destination="@id/cart" />
-        <action
-            android:id="@+id/action_home_screen_desing_to_detailsFragment"
-            app:destination="@id/detailsFragment" />
     </fragment>
     <fragment
         android:id="@+id/profile"
@@ -39,8 +41,18 @@
         android:label="fragment_cart"
         tools:layout="@layout/fragment_cart" />
     <fragment
-        android:id="@+id/detailsFragment"
-        android:name="com.mehedi.fakecommerce.DetailsFragment"
-        android:label="fragment_details"
-        tools:layout="@layout/fragment_details" />
+        android:id="@+id/onboarding1Fragment"
+        android:name="com.mehedi.fakecommerce.Onboarding1Fragment"
+        android:label="fragment_onboarding1"
+        tools:layout="@layout/fragment_onboarding1" />
+    <fragment
+        android:id="@+id/onboardin2Fragment"
+        android:name="com.mehedi.fakecommerce.Onboarding2Fragment"
+        android:label="fragment_onboardin2"
+        tools:layout="@layout/fragment_onboardin2" />
+    <fragment
+        android:id="@+id/onboarding3Fragment"
+        android:name="com.mehedi.fakecommerce.Onboarding3Fragment"
+        android:label="fragment_onboarding3"
+        tools:layout="@layout/fragment_onboarding3" />
 </navigation>
