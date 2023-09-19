@@ -2,14 +2,11 @@ package com.mehedi.fakecommerce.ui.home
 
 
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import androidx.fragment.app.activityViewModels
-import androidx.fragment.app.viewModels
-import androidx.navigation.fragment.findNavController
-import com.mehedi.fakecommerce.R
 import com.mehedi.fakecommerce.base.BaseFragment
 import com.mehedi.fakecommerce.databinding.FragmentHomeBinding
+import com.mehedi.fakecommerce.ui.cart.CartViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 
@@ -39,7 +36,7 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>(FragmentHomeBinding::infl
 
     override fun itemClick(id: Int) {
         viewModel.getProductById(id)
-        findNavController().navigate(R.id.action_home_screen_desing_to_detailsFragment)
+
     }
 
 
